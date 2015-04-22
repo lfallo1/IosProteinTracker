@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D225C6AF1AE48FD00096F06D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D225C6AE1AE48FD00096F06D /* main.m */; };
+		D225C6B21AE48FD00096F06D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D225C6B11AE48FD00096F06D /* AppDelegate.m */; };
+		D225C6B51AE48FD00096F06D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D225C6B41AE48FD00096F06D /* MainViewController.m */; };
+		D225C6B81AE48FD00096F06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D225C6B61AE48FD00096F06D /* Main.storyboard */; };
+		D225C6BA1AE48FD00096F06D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D225C6B91AE48FD00096F06D /* Images.xcassets */; };
+		D225C6BD1AE48FD00096F06D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D225C6BB1AE48FD00096F06D /* LaunchScreen.xib */; };
+		D225C6C91AE48FD00096F06D /* ProteinTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D225C6C81AE48FD00096F06D /* ProteinTrackerTests.m */; };
+		D23048461AE549D800DF2C58 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23048451AE549D800DF2C58 /* HistoryViewController.m */; };
+		D230484D1AE56BEB00DF2C58 /* ProteinGoalService.m in Sources */ = {isa = PBXBuildFile; fileRef = D230484C1AE56BEB00DF2C58 /* ProteinGoalService.m */; };
+		D230484F1AE572DD00DF2C58 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D230484E1AE572DD00DF2C58 /* Settings.bundle */; };
+		D23048661AE587BA00DF2C58 /* StringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D23048651AE587BA00DF2C58 /* StringUtilities.m */; };
+		D23048691AE5A90600DF2C58 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23048681AE5A90600DF2C58 /* HelpViewController.m */; };
+		D230486D1AE5AC5F00DF2C58 /* spaceBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D230486C1AE5AC5F00DF2C58 /* spaceBg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D225C6C31AE48FD00096F06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D225C6A11AE48FD00096F06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D225C6A81AE48FD00096F06D;
+			remoteInfo = ProteinTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D225C6A91AE48FD00096F06D /* ProteinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProteinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D225C6AD1AE48FD00096F06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D225C6AE1AE48FD00096F06D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D225C6B01AE48FD00096F06D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D225C6B11AE48FD00096F06D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D225C6B31AE48FD00096F06D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ProteinTracker/MainViewController.h; sourceTree = "<group>"; };
+		D225C6B41AE48FD00096F06D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ProteinTracker/MainViewController.m; sourceTree = "<group>"; };
+		D225C6B71AE48FD00096F06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D225C6B91AE48FD00096F06D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D225C6BC1AE48FD00096F06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D225C6C21AE48FD00096F06D /* ProteinTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D225C6C71AE48FD00096F06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D225C6C81AE48FD00096F06D /* ProteinTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProteinTrackerTests.m; sourceTree = "<group>"; };
+		D23048441AE549D800DF2C58 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = ProteinTracker/HistoryViewController.h; sourceTree = "<group>"; };
+		D23048451AE549D800DF2C58 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = ProteinTracker/HistoryViewController.m; sourceTree = "<group>"; };
+		D23048491AE56A8B00DF2C58 /* GoalService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoalService.h; sourceTree = "<group>"; };
+		D230484B1AE56BEB00DF2C58 /* ProteinGoalService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProteinGoalService.h; sourceTree = "<group>"; };
+		D230484C1AE56BEB00DF2C58 /* ProteinGoalService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProteinGoalService.m; sourceTree = "<group>"; };
+		D230484E1AE572DD00DF2C58 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D23048641AE587BA00DF2C58 /* StringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtilities.h; sourceTree = "<group>"; };
+		D23048651AE587BA00DF2C58 /* StringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtilities.m; sourceTree = "<group>"; };
+		D23048671AE5A90600DF2C58 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		D23048681AE5A90600DF2C58 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		D230486C1AE5AC5F00DF2C58 /* spaceBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceBg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D225C6A61AE48FD00096F06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D225C6BF1AE48FD00096F06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D225C6A01AE48FD00096F06D = {
+			isa = PBXGroup;
+			children = (
+				D23048631AE5877800DF2C58 /* Utilities */,
+				D230484A1AE56BB600DF2C58 /* ProtocolImpl */,
+				D23048481AE56A7600DF2C58 /* Protocols */,
+				D23048471AE549E500DF2C58 /* ViewControllers */,
+				D225C6AB1AE48FD00096F06D /* ProteinTracker */,
+				D225C6C51AE48FD00096F06D /* ProteinTrackerTests */,
+				D225C6AA1AE48FD00096F06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D225C6AA1AE48FD00096F06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D225C6A91AE48FD00096F06D /* ProteinTracker.app */,
+				D225C6C21AE48FD00096F06D /* ProteinTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D225C6AB1AE48FD00096F06D /* ProteinTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D225C6B01AE48FD00096F06D /* AppDelegate.h */,
+				D225C6B11AE48FD00096F06D /* AppDelegate.m */,
+				D225C6B61AE48FD00096F06D /* Main.storyboard */,
+				D225C6B91AE48FD00096F06D /* Images.xcassets */,
+				D225C6BB1AE48FD00096F06D /* LaunchScreen.xib */,
+				D225C6AC1AE48FD00096F06D /* Supporting Files */,
+				D230484E1AE572DD00DF2C58 /* Settings.bundle */,
+			);
+			path = ProteinTracker;
+			sourceTree = "<group>";
+		};
+		D225C6AC1AE48FD00096F06D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D230486C1AE5AC5F00DF2C58 /* spaceBg.jpg */,
+				D225C6AD1AE48FD00096F06D /* Info.plist */,
+				D225C6AE1AE48FD00096F06D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D225C6C51AE48FD00096F06D /* ProteinTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D225C6C81AE48FD00096F06D /* ProteinTrackerTests.m */,
+				D225C6C61AE48FD00096F06D /* Supporting Files */,
+			);
+			path = ProteinTrackerTests;
+			sourceTree = "<group>";
+		};
+		D225C6C61AE48FD00096F06D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D225C6C71AE48FD00096F06D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23048471AE549E500DF2C58 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D225C6B31AE48FD00096F06D /* MainViewController.h */,
+				D225C6B41AE48FD00096F06D /* MainViewController.m */,
+				D23048441AE549D800DF2C58 /* HistoryViewController.h */,
+				D23048451AE549D800DF2C58 /* HistoryViewController.m */,
+				D23048671AE5A90600DF2C58 /* HelpViewController.h */,
+				D23048681AE5A90600DF2C58 /* HelpViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D23048481AE56A7600DF2C58 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D23048491AE56A8B00DF2C58 /* GoalService.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		D230484A1AE56BB600DF2C58 /* ProtocolImpl */ = {
+			isa = PBXGroup;
+			children = (
+				D230484B1AE56BEB00DF2C58 /* ProteinGoalService.h */,
+				D230484C1AE56BEB00DF2C58 /* ProteinGoalService.m */,
+			);
+			name = ProtocolImpl;
+			sourceTree = "<group>";
+		};
+		D23048631AE5877800DF2C58 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D23048641AE587BA00DF2C58 /* StringUtilities.h */,
+				D23048651AE587BA00DF2C58 /* StringUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D225C6A81AE48FD00096F06D /* ProteinTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D225C6CC1AE48FD00096F06D /* Build configuration list for PBXNativeTarget "ProteinTracker" */;
+			buildPhases = (
+				D225C6A51AE48FD00096F06D /* Sources */,
+				D225C6A61AE48FD00096F06D /* Frameworks */,
+				D225C6A71AE48FD00096F06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProteinTracker;
+			productName = ProteinTracker;
+			productReference = D225C6A91AE48FD00096F06D /* ProteinTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D225C6C11AE48FD00096F06D /* ProteinTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D225C6CF1AE48FD00096F06D /* Build configuration list for PBXNativeTarget "ProteinTrackerTests" */;
+			buildPhases = (
+				D225C6BE1AE48FD00096F06D /* Sources */,
+				D225C6BF1AE48FD00096F06D /* Frameworks */,
+				D225C6C01AE48FD00096F06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D225C6C41AE48FD00096F06D /* PBXTargetDependency */,
+			);
+			name = ProteinTrackerTests;
+			productName = ProteinTrackerTests;
+			productReference = D225C6C21AE48FD00096F06D /* ProteinTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D225C6A11AE48FD00096F06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Lance Fallon";
+				TargetAttributes = {
+					D225C6A81AE48FD00096F06D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D225C6C11AE48FD00096F06D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D225C6A81AE48FD00096F06D;
+					};
+				};
+			};
+			buildConfigurationList = D225C6A41AE48FD00096F06D /* Build configuration list for PBXProject "ProteinTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D225C6A01AE48FD00096F06D;
+			productRefGroup = D225C6AA1AE48FD00096F06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D225C6A81AE48FD00096F06D /* ProteinTracker */,
+				D225C6C11AE48FD00096F06D /* ProteinTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D225C6A71AE48FD00096F06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D230486D1AE5AC5F00DF2C58 /* spaceBg.jpg in Resources */,
+				D230484F1AE572DD00DF2C58 /* Settings.bundle in Resources */,
+				D225C6B81AE48FD00096F06D /* Main.storyboard in Resources */,
+				D225C6BD1AE48FD00096F06D /* LaunchScreen.xib in Resources */,
+				D225C6BA1AE48FD00096F06D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D225C6C01AE48FD00096F06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D225C6A51AE48FD00096F06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D225C6B51AE48FD00096F06D /* MainViewController.m in Sources */,
+				D225C6B21AE48FD00096F06D /* AppDelegate.m in Sources */,
+				D225C6AF1AE48FD00096F06D /* main.m in Sources */,
+				D23048661AE587BA00DF2C58 /* StringUtilities.m in Sources */,
+				D23048691AE5A90600DF2C58 /* HelpViewController.m in Sources */,
+				D23048461AE549D800DF2C58 /* HistoryViewController.m in Sources */,
+				D230484D1AE56BEB00DF2C58 /* ProteinGoalService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D225C6BE1AE48FD00096F06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D225C6C91AE48FD00096F06D /* ProteinTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D225C6C41AE48FD00096F06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D225C6A81AE48FD00096F06D /* ProteinTracker */;
+			targetProxy = D225C6C31AE48FD00096F06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D225C6B61AE48FD00096F06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D225C6B71AE48FD00096F06D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D225C6BB1AE48FD00096F06D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D225C6BC1AE48FD00096F06D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D225C6CA1AE48FD00096F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D225C6CB1AE48FD00096F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D225C6CD1AE48FD00096F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProteinTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D225C6CE1AE48FD00096F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProteinTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D225C6D01AE48FD00096F06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProteinTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProteinTracker.app/ProteinTracker";
+			};
+			name = Debug;
+		};
+		D225C6D11AE48FD00096F06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProteinTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProteinTracker.app/ProteinTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D225C6A41AE48FD00096F06D /* Build configuration list for PBXProject "ProteinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D225C6CA1AE48FD00096F06D /* Debug */,
+				D225C6CB1AE48FD00096F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D225C6CC1AE48FD00096F06D /* Build configuration list for PBXNativeTarget "ProteinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D225C6CD1AE48FD00096F06D /* Debug */,
+				D225C6CE1AE48FD00096F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D225C6CF1AE48FD00096F06D /* Build configuration list for PBXNativeTarget "ProteinTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D225C6D01AE48FD00096F06D /* Debug */,
+				D225C6D11AE48FD00096F06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D225C6A11AE48FD00096F06D /* Project object */;
+}
